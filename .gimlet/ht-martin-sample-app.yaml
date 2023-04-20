@@ -1,0 +1,13 @@
+app: martin-sample-app
+env: ht
+namespace: gimlet
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.41.0
+values:
+  gitRepository: access-opshero/martin-sample-app
+  gitSha: '{{ .SHA }}'
+strategicMergePatches: ""
+json6902Patches: []
+manifests: ""
